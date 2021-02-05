@@ -3,8 +3,6 @@
 #include "LocalSearch.h"
 #include "Split.h"
 
-using namespace std;
-
 int main(int argc, char *argv[]) {
     try {
         // Reading the arguments of the program
@@ -39,7 +37,7 @@ int main(int argc, char *argv[]) {
             if (commandline.pathBKS != "") population.exportBKS(commandline.pathBKS);
         }
     }
-    catch (const string &e) { std::cout << "EXCEPTION | " << e << std::endl; }
+    catch (const std::string &e) { std::cout << "EXCEPTION | " << e << std::endl; }
     catch (const std::exception &e) { std::cout << "EXCEPTION | " << e.what() << std::endl; }
     return 0;
 }
