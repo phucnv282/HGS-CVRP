@@ -1,7 +1,0 @@
-/snap/clion/139/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/phucnv/hdd/HGS-CVRP/Program
--- Found OpenMP_C: -fopenmp  
--- Found OpenMP_CXX: -fopenmp  
--- Found OpenMP: TRUE   
--- Configuring done
--- Generating done
--- Build files have been written to: /home/phucnv/hdd/HGS-CVRP/Program/cmake-build-debug

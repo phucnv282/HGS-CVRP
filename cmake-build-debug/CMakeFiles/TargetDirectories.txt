@@ -1,3 +1,0 @@
-/home/phucnv/hdd/HGS-CVRP/Program/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/phucnv/hdd/HGS-CVRP/Program/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/phucnv/hdd/HGS-CVRP/Program/cmake-build-debug/CMakeFiles/hgs-cvrp.dir
