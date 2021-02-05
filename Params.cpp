@@ -30,8 +30,7 @@ Params::Params(std::string pathToInstance, int nbVeh, int seedRNG) : nbVehicles(
             else if (content == "DISTANCE") {
                 inputFile >> content2 >> durationLimit;
                 isDurationConstraint = true;
-            }
-            else if (content == "SERVICE_TIME") inputFile >> content2 >> serviceTimeData;
+            } else if (content == "SERVICE_TIME") inputFile >> content2 >> serviceTimeData;
             else throw std::string("Unexpected data in input file: " + content);
         }
         if (nbClients <= 0) throw std::string("Number of nodes is undefined");
